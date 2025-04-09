@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(express.json()); // This must be before the routes
+app.use(express.json());
 
 // Connect to MongoDB
 connectDB();
